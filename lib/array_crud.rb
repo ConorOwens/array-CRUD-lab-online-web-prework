@@ -7,13 +7,13 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  cats = ["Harvey"]
-  cats << "Misty"
+  array = [1, 2, 3]
+  array << element
 end
 
 def add_element_to_start_of_array(array, element)
-  hookah_flavors ["Grapfruit Mint", "Cool Mint", "Gummy Bear"]
-  hookah_flavors.unshift "Blueberry Sex"
+  array = [1, 2, 3]
+  array.unshift(element)
 end
 
 def remove_element_from_end_of_array(array)
