@@ -3,19 +3,22 @@ def create_an_empty_array
 end
 
 def create_an_array
-  
+  dogs = ["Penny", "Nakota", "Boy", "Dava"]
 end
 
 def add_element_to_end_of_array(array, element)
-  
+  cats = ["Harvey"]
+  cats << "Misty"
 end
 
 def add_element_to_start_of_array(array, element)
-  
+  hookah_flavors ["Grapfruit Mint", "Cool Mint", "Gummy Bear"]
+  hookah_flavors.unshift "Blueberry Sex"
 end
 
 def remove_element_from_end_of_array(array)
-  
+  birds = ["Flamingo", "Crow", "Parrot", "Great Dane"]
+  birds.shift
 end
 
 def remove_element_from_start_of_array(array)
