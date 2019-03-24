@@ -17,15 +17,17 @@ def add_element_to_start_of_array(array, element)
 end
 
 def remove_element_from_end_of_array(array)
-  birds = ["Flamingo", "Crow", "Parrot", "Great Dane"]
-  birds.shift
+  array = [1, 2, 3]
+  array.shift
 end
 
 def remove_element_from_start_of_array(array)
-  
+  array = [1, 2, 3]
+  array.pop
 end
 
 def retrieve_element_from_index(array, index_number)
+  array = [1, 2, 3]
   
 end
 
